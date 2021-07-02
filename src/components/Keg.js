@@ -11,6 +11,8 @@ function Keg(props) {
       <h3>{props.price}</h3>
       <h3>{props.alcoholContent}</h3>
       <h3>{props.description}</h3>
+      <br/>
+      <button>Sell a pint of this.</button>
       <hr/>
       </div>
     </React.Fragment>

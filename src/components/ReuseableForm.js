@@ -10,26 +10,27 @@ function ReusableForm(props) {
           type="text"
           name="name"
           placeholder="Keg Name" />
-        <hr/>
+        <br/>
         <input
           type="text"
           name="brand"
           placeholder="Keg Brand" />
-        <hr/>
+        <br/>
         <input
           type="text"
           name="price"
           placeholder="Price of a Pint" />
-        <hr/>
+        <br/>
         <input
           type="text"
           name="alcoholContent"
           placeholder="Keg Alcohol Content" />
-        <hr/>
+        <br/>
         <textarea
           type="text"
           name="description"
           placeholder="Keg Description" />
+        <br/>
         <button type="submit">{props.buttonText}</button>
         <hr/>
       </form>

@@ -3,7 +3,7 @@ import React from "react";
 function Footer(props) {
 
   const myFunkyFooterStyles = {
-    fontSize: '5px'
+    fontSize: '15px'
   }
 
   return (
