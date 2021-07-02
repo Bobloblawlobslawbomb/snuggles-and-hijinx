@@ -1,11 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
-import ReusableForm from "./ReusableForm";
+import ReuseableForm from "./ReuseableForm";
 
 function EditKegForm (props) {
   const { keg } = props;
 
-  function handleEditTicketFormSubmission(e) {
+  function handleEditKegFormSubmission(e) {
     e.preventDeafault();
     props.onEditKeg({
       name: e.target.name.value,
@@ -19,7 +19,7 @@ function EditKegForm (props) {
 
   return (
     <React.Fragment>
-      <ReusableForm 
+      <ReuseableForm 
         formSubmissionHandler={handleEditKegFormSubmission}
         buttonText="Update Keg" />
     </React.Fragment>
