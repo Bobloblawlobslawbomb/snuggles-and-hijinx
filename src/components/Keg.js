@@ -14,7 +14,7 @@ function Keg(props) {
       <hr/>
       </div>
     </React.Fragment>
-  )
+  );
 }
 
 Keg.propTypes = {
