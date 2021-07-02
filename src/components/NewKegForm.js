@@ -1,7 +1,7 @@
 import React from "react";
 import { v4 } from "uuid";
 import PropTypes from "prop-types";
-import ReusableForm from "./ReusableForm";
+import ReuseableForm from "./ReuseableForm";
 
 function NewKegForm(props) {
   function handleNewKegFormSubmission(e) {
@@ -18,7 +18,7 @@ function NewKegForm(props) {
 
   return (
     <React.Fragment>
-      <ReusableForm
+      <ReuseableForm
         formSubmissionHandler={handleNewKegFormSubmission}
         button="Add new Keg" />
     </React.Fragment>
