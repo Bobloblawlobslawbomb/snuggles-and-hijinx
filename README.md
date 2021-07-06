@@ -20,6 +20,11 @@ An app which allows a user to input information pertaining to an idividual keg. 
 
 ---
 
+## Application Component Diagram
+<img src="/src/img/snugglesDiagram.png" alt="Diagram of project structure" style="height: 75vh; width:75vw;"/>
+
+---
+
 ## Installation Requirements/Setup
 
 ### Requirements:
