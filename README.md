@@ -1,4 +1,38 @@
-# Getting Started with Create React App
+# The Snuggles and Hijinx Tap Room
+
+#### A Brief Description.
+_A basic React 'Tap Room tracker' app._ 
+
+### By Giancarlo Vigneri
+---
+## Technologies Used
+
+>* _VS Code_
+>* _HTML_
+>* _CSS_
+>* _JSX_
+>* _Yarn_
+>* _React_
+
+---
+## Description 
+An app which allows a user to input information pertaining to an idividual keg. The user can input multiple kegs' worth of information, thus creating a list of kegs or a 'keg list'. The user can click on any one keg in the list and be able to see the 'kegs details' view and from there can update the kegs information or delete the keg. Each view also features buttons which allow the user to navigate between views being displayed.
+
+---
+
+## Installation Requirements/Setup
+
+### Requirements:
+
+- A text editor like [VS Code](https://code.visualstudio.com/)
+- A command line interface like Terminal or [GitBash](https://gitforwindows.org/) to run and interact with the app.
+
+## Downloading the Program:
+> 1) Clone the repository: "https://github.com/Bobloblawlobslawbomb/snuggles-and-hijinx"
+> 2) Navigate to the 'snuggles-and-hijinx/' directory on your computer
+> 3) Open with your favorite text editor (Visual Studio Code, is a pretty sweet one)
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -68,3 +102,22 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+---
+
+## Known Bugs
+
+* _none...Yet_
+
+---
+
+
+---
+
+## License [GPL] (https://choosealicense.com/licenses/gpl-3.0/)
+_if you do run into any issues or have questions, ideas, or concerns; I would greatly encourage you to send feedback or make a contribution to the code_
+
+---
+
+## Contact Information
+_Contact Giancarlo Vigneri at: bobloblaw.vigneri@gmail.com_ 
