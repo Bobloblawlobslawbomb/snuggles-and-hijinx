@@ -27,7 +27,6 @@ function ReusableForm(props) {
           placeholder="Keg Alcohol Content" />
         <br/>
         <textarea
-          type="text"
           name="description"
           placeholder="Keg Description" />
         <br/>
