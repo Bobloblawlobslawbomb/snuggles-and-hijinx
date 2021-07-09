@@ -12,7 +12,7 @@ function Keg(props) {
       <h3>{props.alcoholContent}</h3>
       <h3>{props.description}</h3>
       <br/>
-      <button onClick={}>Sell a pint of this.</button>
+      {/* <button onClick={}>Sell a pint of this.</button> */}
       <hr/>
       </div>
     </React.Fragment>
