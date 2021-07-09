@@ -25,6 +25,12 @@ An app which allows a user to input information pertaining to an idividual keg. 
 
 ---
 
+## Planned Updates:
+ - More (some) styling
+ - refactor to allow buying of pints from kegList view
+
+---
+
 ## Installation Requirements/Setup
 
 ### Requirements:
