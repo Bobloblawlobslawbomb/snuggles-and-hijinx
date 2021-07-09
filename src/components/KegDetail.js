@@ -7,11 +7,18 @@ function KegDetail(props) {
   return (
     <React.Fragment>
       <h1>Keg Details</h1>
-      <h3>{keg.name}</h3>
-      <h3>{keg.brand}</h3>
-      <h3>{keg.price}</h3>
-      <h3>{keg.alcoholContent}</h3>
-      <h3>{keg.description}</h3>
+      <h3>Name of Keg: {keg.name}</h3>
+      <h3>Brand of Keg: {keg.brand}</h3>
+      <h3>Price of Keg: {keg.price}</h3>
+      <h3>ABV of Keg: {keg.alcoholContent}</h3>
+      <h3>Keg description: {keg.description}</h3>
+      <h3>Number of Pints left in keg: {keg.numOfPints}</h3>
+      {keg.numOfPints === 0
+        ? <h3>Sorry this keg is empty!</h3>
+        : <h3>{keg.numOfPints}</h3>}
+      {keg.numOfPints > 0 
+        ? <button onClick={props.onClickingBuyPint}>Buy a Pint</button>
+        : <button onClick={props.onClickingRefill}>Refill Keg</button>}
       <button onClick={ onClickingEdit }>Update Keg</button>
       <button onClick={() => onClickingDelete(keg.id)}>Delete Keg</button>
       <hr/>

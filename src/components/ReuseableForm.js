@@ -26,6 +26,13 @@ function ReusableForm(props) {
           name="alcoholContent"
           placeholder="Keg Alcohol Content" />
         <br/>
+        <input
+          type="number"
+          name="numOfPints"
+          placeholder="Amount of Pints in this Keg."
+          min="0"
+          max="124" />
+        <br/>
         <textarea
           type="text"
           name="description"

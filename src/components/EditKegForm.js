@@ -13,6 +13,7 @@ function EditKegForm (props) {
       price:e.target.price.value,
       alcoholContent:e.target.alcoholContent.value,
       description: e.target.description.value,
+      numOfPints: parseInt(e.target.numOfPints.value),
       id: keg.id
     })
   }
